@@ -1,0 +1,89 @@
+2025-08-11 16:31:16,787 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250811_163116.log
+2025-08-11 16:31:16,788 - INFO - Setting up Chrome WebDriver...
+2025-08-11 16:31:17,008 - INFO - Chromedriver is already installed.
+2025-08-11 16:31:17,008 - INFO - ChromeDriver installed at: /Users/lucasawad/Coding Master/ANGELES_INVESTORS/Linkedin Commentor/li-bot-env/lib/python3.9/site-packages/chromedriver_autoinstaller/138/chromedriver
+2025-08-11 16:31:17,009 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpqnonkcdh
+2025-08-11 16:31:18,271 - INFO - Chrome WebDriver setup completed successfully
+2025-08-11 16:31:18,271 - INFO - Navigating to X login page...
+2025-08-11 16:31:19,370 - INFO - X login page loaded
+2025-08-11 16:31:19,371 - INFO - ============================================================
+2025-08-11 16:31:19,371 - INFO - LOGIN FLOW
+2025-08-11 16:31:19,371 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-11 16:31:19,371 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-11 16:31:19,371 - INFO - ============================================================
+2025-08-11 16:31:19,485 - INFO - Injected login confirmation overlay into the page.
+2025-08-11 16:31:19,624 - INFO - Injected login confirmation overlay into the page.
+2025-08-11 16:31:19,629 - INFO - Confirming login status...
+2025-08-11 16:31:33,441 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+0   chromedriver                        0x0000000104f0cb38 cxxbridge1$str$ptr + 2722088
+1   chromedriver                        0x0000000104f04aa8 cxxbridge1$str$ptr + 2689176
+2   chromedriver                        0x0000000104a5633c cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104a30094 chromedriver + 131220
+4   chromedriver                        0x0000000104ac5558 cxxbridge1$string$len + 545844
+5   chromedriver                        0x0000000104ade3a0 cxxbridge1$string$len + 647804
+6   chromedriver                        0x0000000104a91784 cxxbridge1$string$len + 333408
+7   chromedriver                        0x0000000104ecfeb4 cxxbridge1$str$ptr + 2473124
+8   chromedriver                        0x0000000104ed3120 cxxbridge1$str$ptr + 2486032
+9   chromedriver                        0x0000000104eb16b4 cxxbridge1$str$ptr + 2348196
+10  chromedriver                        0x0000000104ed39dc cxxbridge1$str$ptr + 2488268
+11  chromedriver                        0x0000000104ea2730 cxxbridge1$str$ptr + 2286880
+12  chromedriver                        0x0000000104ef35f8 cxxbridge1$str$ptr + 2618344
+13  chromedriver                        0x0000000104ef3784 cxxbridge1$str$ptr + 2618740
+14  chromedriver                        0x0000000104f046e4 cxxbridge1$str$ptr + 2688212
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-11 16:31:33,443 - INFO - Waiting for login confirmation... (click the overlay button when ready)
+2025-08-11 16:31:34,453 - INFO - Confirming login status...
+2025-08-11 16:31:34,454 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+0   chromedriver                        0x0000000104f0cb38 cxxbridge1$str$ptr + 2722088
+1   chromedriver                        0x0000000104f04aa8 cxxbridge1$str$ptr + 2689176
+2   chromedriver                        0x0000000104a5633c cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104a30094 chromedriver + 131220
+4   chromedriver                        0x0000000104ac5558 cxxbridge1$string$len + 545844
+5   chromedriver                        0x0000000104ade3a0 cxxbridge1$string$len + 647804
+6   chromedriver                        0x0000000104a91784 cxxbridge1$string$len + 333408
+7   chromedriver                        0x0000000104ecfeb4 cxxbridge1$str$ptr + 2473124
+8   chromedriver                        0x0000000104ed3120 cxxbridge1$str$ptr + 2486032
+9   chromedriver                        0x0000000104eb16b4 cxxbridge1$str$ptr + 2348196
+10  chromedriver                        0x0000000104ed39dc cxxbridge1$str$ptr + 2488268
+11  chromedriver                        0x0000000104ea2730 cxxbridge1$str$ptr + 2286880
+12  chromedriver                        0x0000000104ef35f8 cxxbridge1$str$ptr + 2618344
+13  chromedriver                        0x0000000104ef3784 cxxbridge1$str$ptr + 2618740
+14  chromedriver                        0x0000000104f046e4 cxxbridge1$str$ptr + 2688212
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-11 16:31:35,467 - INFO - Confirming login status...
+2025-08-11 16:31:35,469 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+0   chromedriver                        0x0000000104f0cb38 cxxbridge1$str$ptr + 2722088
+1   chromedriver                        0x0000000104f04aa8 cxxbridge1$str$ptr + 2689176
+2   chromedriver                        0x0000000104a5633c cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104a30094 chromedriver + 131220
+4   chromedriver                        0x0000000104ac5558 cxxbridge1$string$len + 545844
+5   chromedriver                        0x0000000104ade3a0 cxxbridge1$string$len + 647804
+6   chromedriver                        0x0000000104a91784 cxxbridge1$string$len + 333408
+7   chromedriver                        0x0000000104ecfeb4 cxxbridge1$str$ptr + 2473124
+8   chromedriver                        0x0000000104ed3120 cxxbridge1$str$ptr + 2486032
+9   chromedriver                        0x0000000104eb16b4 cxxbridge1$str$ptr + 2348196
+10  chromedriver                        0x0000000104ed39dc cxxbridge1$str$ptr + 2488268
+11  chromedriver                        0x0000000104ea2730 cxxbridge1$str$ptr + 2286880
+12  chromedriver                        0x0000000104ef35f8 cxxbridge1$str$ptr + 2618344
+13  chromedriver                        0x0000000104ef3784 cxxbridge1$str$ptr + 2618740
+14  chromedriver                        0x0000000104f046e4 cxxbridge1$str$ptr + 2688212
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-11 16:31:36,084 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/6576965bde19b6fd7a6176f80ba4ab12
+2025-08-11 16:31:36,086 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104240cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6576965bde19b6fd7a6176f80ba4ab12
+2025-08-11 16:31:36,087 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104240d00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6576965bde19b6fd7a6176f80ba4ab12
+2025-08-11 16:31:36,088 - INFO - Browser closed successfully

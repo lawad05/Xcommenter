@@ -1,0 +1,12 @@
+2025-08-11 16:06:28,461 - INFO - X Commenter Bot (Adaptive Columns) initialized. Log file: logs/x_commenter_20250811_160628.log
+2025-08-11 16:06:28,462 - INFO - Setting up Chrome WebDriver...
+2025-08-11 16:06:28,723 - INFO - Chromedriver is already installed.
+2025-08-11 16:06:28,723 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/138/chromedriver
+2025-08-11 16:06:28,724 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmp92j6x_rg
+2025-08-11 16:06:29,961 - INFO - Chrome WebDriver setup completed successfully
+2025-08-11 16:06:29,962 - INFO - Navigating to X login page...
+2025-08-11 16:06:31,126 - INFO - X login page loaded
+2025-08-11 16:06:31,126 - INFO - ============================================================
+2025-08-11 16:06:31,126 - INFO - MANUAL LOGIN REQUIRED
+2025-08-11 16:06:31,126 - INFO - Complete login in the Chrome window, then return here and press ENTER.
+2025-08-11 16:06:31,126 - INFO - ============================================================

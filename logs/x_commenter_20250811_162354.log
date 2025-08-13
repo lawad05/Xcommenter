@@ -1,0 +1,20 @@
+2025-08-11 16:23:54,512 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250811_162354.log
+2025-08-11 16:23:54,512 - INFO - Setting up Chrome WebDriver...
+2025-08-11 16:23:54,763 - INFO - Chromedriver is already installed.
+2025-08-11 16:23:54,763 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/138/chromedriver
+2025-08-11 16:23:54,764 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpkxur_62p
+2025-08-11 16:23:56,163 - INFO - Chrome WebDriver setup completed successfully
+2025-08-11 16:23:56,163 - INFO - Navigating to X login page...
+2025-08-11 16:23:57,317 - INFO - X login page loaded
+2025-08-11 16:23:57,317 - INFO - ============================================================
+2025-08-11 16:23:57,317 - INFO - LOGIN FLOW
+2025-08-11 16:23:57,317 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-11 16:23:57,317 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-11 16:23:57,317 - INFO - ============================================================
+2025-08-11 16:23:57,498 - INFO - Injected login confirmation overlay into the page.
+2025-08-11 16:23:57,588 - INFO - Confirming login status...
+2025-08-11 16:24:16,183 - INFO - Login confirmed via element: [data-testid='primaryColumn']
+2025-08-11 16:24:16,184 - INFO - Login auto-confirmed via page indicators.
+2025-08-11 16:24:16,191 - INFO - Loading Excel spreadsheet: temp_upload.xlsx
+2025-08-11 16:24:16,194 - ERROR - Fatal error: Error reading Excel file: [Errno 22] Invalid argument
+2025-08-11 16:24:16,321 - INFO - Browser closed successfully
