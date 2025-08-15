@@ -1,0 +1,27 @@
+2025-08-15 17:19:48,878 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250815_171948.log
+2025-08-15 17:19:48,878 - INFO - Setting up Chrome WebDriver...
+2025-08-15 17:19:49,734 - INFO - Downloading chromedriver (139.0.7258.68)...
+2025-08-15 17:19:50,676 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/139/chromedriver
+2025-08-15 17:19:50,677 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpd2p7k5hg
+2025-08-15 17:19:53,844 - INFO - Chrome WebDriver setup completed successfully
+2025-08-15 17:19:53,845 - INFO - Navigating to X login page...
+2025-08-15 17:19:55,772 - INFO - X login page loaded
+2025-08-15 17:19:55,772 - INFO - ============================================================
+2025-08-15 17:19:55,772 - INFO - LOGIN FLOW
+2025-08-15 17:19:55,772 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-15 17:19:55,772 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-15 17:19:55,772 - INFO - ============================================================
+2025-08-15 17:19:55,775 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:19:55,785 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:19:55,787 - INFO - Confirming login status...
+2025-08-15 17:20:16,408 - INFO - Waiting for login confirmation... (click the overlay button when ready)
+2025-08-15 17:20:17,433 - INFO - Confirming login status...
+2025-08-15 17:20:37,989 - INFO - Waiting for login confirmation... (click the overlay button when ready)
+2025-08-15 17:20:39,005 - INFO - Confirming login status...
+2025-08-15 17:20:46,047 - INFO - Login confirmed via element: [data-testid='AppTabBar_Profile_Link']
+2025-08-15 17:20:46,048 - INFO - Login auto-confirmed via page indicators.
+2025-08-15 17:20:46,052 - INFO - Loading spreadsheet: temp_upload.xlsx
+2025-08-15 17:20:46,052 - INFO - Resolved sheet path: /Users/lucasawad/Coding Master/ANGELES_INVESTORS/X Commentor Bot/temp_upload.xlsx
+2025-08-15 17:20:46,053 - WARNING - pandas.read_excel failed: OSError(22, 'Invalid argument')
+2025-08-15 17:20:46,053 - ERROR - Fatal error: Error reading input file after fallbacks: read_excel(openpyxl): OSError(22, 'Invalid argument') | openpyxl fallback: OSError(22, 'Invalid argument')
+2025-08-15 17:20:46,191 - INFO - Browser closed successfully

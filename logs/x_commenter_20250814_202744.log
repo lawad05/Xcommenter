@@ -1,0 +1,24 @@
+2025-08-14 20:27:44,960 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250814_202744.log
+2025-08-14 20:27:44,961 - INFO - Setting up Chrome WebDriver...
+2025-08-14 20:27:49,367 - INFO - Chromedriver is already installed.
+2025-08-14 20:27:49,367 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/138/chromedriver
+2025-08-14 20:27:49,369 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpuws9lhi3
+2025-08-14 20:27:50,726 - INFO - Chrome WebDriver setup completed successfully
+2025-08-14 20:27:50,730 - INFO - Navigating to X login page...
+2025-08-14 20:27:52,609 - INFO - X login page loaded
+2025-08-14 20:27:52,609 - INFO - ============================================================
+2025-08-14 20:27:52,609 - INFO - LOGIN FLOW
+2025-08-14 20:27:52,609 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-14 20:27:52,609 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-14 20:27:52,609 - INFO - ============================================================
+2025-08-14 20:27:52,612 - INFO - Injected login confirmation overlay into the page.
+2025-08-14 20:27:52,621 - INFO - Injected login confirmation overlay into the page.
+2025-08-14 20:27:52,623 - INFO - Confirming login status...
+2025-08-14 20:28:10,264 - INFO - Login confirmed via element: [data-testid='primaryColumn']
+2025-08-14 20:28:10,265 - INFO - Login auto-confirmed via page indicators.
+2025-08-14 20:28:10,267 - INFO - Loading Excel spreadsheet: temp_upload.xlsx
+2025-08-14 20:28:10,267 - INFO - Resolved sheet path: /Users/lucasawad/Coding Master/ANGELES_INVESTORS/X Commentor Bot/temp_upload.xlsx
+2025-08-14 20:28:10,270 - ERROR - pandas.read_excel failed: OSError(22, 'Invalid argument')
+2025-08-14 20:28:10,271 - ERROR - openpyxl fallback failed: OSError(22, 'Invalid argument')
+2025-08-14 20:28:10,271 - ERROR - Fatal error: Error reading Excel file after fallbacks: [Errno 22] Invalid argument
+2025-08-14 20:28:10,411 - INFO - Browser closed successfully

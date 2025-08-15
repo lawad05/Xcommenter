@@ -1,0 +1,69 @@
+2025-08-15 17:39:31,785 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250815_173931.log
+2025-08-15 17:39:31,786 - INFO - Setting up Chrome WebDriver...
+2025-08-15 17:39:32,012 - INFO - Chromedriver is already installed.
+2025-08-15 17:39:32,012 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/139/chromedriver
+2025-08-15 17:39:32,014 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpa3bw4_65
+2025-08-15 17:39:33,294 - INFO - Chrome WebDriver setup completed successfully
+2025-08-15 17:39:33,295 - INFO - Navigating to X login page...
+2025-08-15 17:39:35,051 - INFO - X login page loaded
+2025-08-15 17:39:35,052 - INFO - ============================================================
+2025-08-15 17:39:35,052 - INFO - LOGIN FLOW
+2025-08-15 17:39:35,052 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-15 17:39:35,053 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-15 17:39:35,053 - INFO - ============================================================
+2025-08-15 17:39:35,056 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:39:35,070 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:39:47,679 - INFO - Login confirmed via element: [aria-label='Profile']
+2025-08-15 17:39:47,680 - INFO - Login auto-confirmed via page indicators.
+2025-08-15 17:39:47,685 - INFO - Loading spreadsheet from: str
+2025-08-15 17:39:47,686 - INFO - Resolved sheet path: /Users/lucasawad/Coding Master/ANGELES_INVESTORS/X Commentor Bot/temp_upload.xlsx
+2025-08-15 17:39:47,691 - INFO - Successfully read Excel with strategy 1
+2025-08-15 17:39:47,694 - INFO - Loaded columns: ['postUrl', 'Generated comment', 'Commented (Y/N)']
+2025-08-15 17:39:47,694 - INFO - Normalized headers: ['posturl', 'generated_comment', 'commented_(y/n)']
+2025-08-15 17:39:47,695 - INFO - Detected URL column: postUrl
+2025-08-15 17:39:47,695 - INFO - Detected comment column: Generated comment
+2025-08-15 17:39:47,697 - INFO - After cleaning empty rows: 5 -> 5
+2025-08-15 17:39:47,698 - INFO - Rows already commented (Y/YES/TRUE/1): 0
+2025-08-15 17:39:47,698 - INFO - Final count - 5 rows will be processed
+2025-08-15 17:39:47,699 - INFO - Sample data preview (rows to be processed):
+2025-08-15 17:39:47,699 - INFO -   Row 0: URL=https://x.com/dolivencia/status/1955376266523156505...
+2025-08-15 17:39:47,700 - INFO -   Row 0: Comment=Exploring alternatives can lead to exciting discoveries beyond familiar tools....
+2025-08-15 17:39:47,700 - INFO -   Row 1: URL=https://x.com/dolivencia/status/1954962014461366563...
+2025-08-15 17:39:47,701 - INFO -   Row 1: Comment=Establishing strong connections early fosters trust and support in challenging t...
+2025-08-15 17:39:47,701 - INFO -   Row 2: URL=https://x.com/amainetto/status/1412908156766806017...
+2025-08-15 17:39:47,701 - INFO -   Row 2: Comment=Balancing budget constraints with innovative digital solutions is crucial for lo...
+2025-08-15 17:39:47,702 - INFO - Starting to process 5 uncommented posts...
+2025-08-15 17:39:47,702 - INFO - Processing post 1/5
+2025-08-15 17:39:47,702 - INFO -   Row Index: 0
+2025-08-15 17:39:47,702 - INFO -   Author: Unknown
+2025-08-15 17:39:47,703 - INFO -   Content: No content
+2025-08-15 17:39:47,703 - INFO -   URL: https://x.com/dolivencia/status/1955376266523156505
+2025-08-15 17:39:51,361 - INFO - Attempting to post comment: Exploring alternatives can lead to exciting discov...
+2025-08-15 17:39:51,383 - INFO - Found reply button with selector: [data-testid='reply']
+2025-08-15 17:39:52,394 - INFO - Clicking reply button...
+2025-08-15 17:39:54,532 - INFO - Found compose area with selector: [data-testid='tweetTextarea_0']
+2025-08-15 17:39:54,533 - INFO - Clicking on compose area...
+2025-08-15 17:39:55,566 - INFO - Inputting comment text...
+2025-08-15 17:39:56,088 - INFO - Comment text entered successfully using send_keys
+2025-08-15 17:39:56,089 - INFO - Waiting for Post/Reply button to become enabled...
+2025-08-15 17:39:58,114 - INFO - Found enabled post button with selector: [data-testid='tweetButton']
+2025-08-15 17:39:59,124 - INFO - Clicking Post/Reply button...
+2025-08-15 17:39:59,190 - INFO - Waiting for comment to be posted...
+2025-08-15 17:40:04,211 - INFO - Comment posting verified via: [data-testid='tweet']
+2025-08-15 17:40:04,213 - INFO - Comment posting process completed successfully
+2025-08-15 17:40:04,214 - INFO - ✓ Post 1: Comment posted successfully
+2025-08-15 17:40:04,294 - INFO - ✓ Updated file: Row 0 marked as 'Y' → /Users/lucasawad/Coding Master/ANGELES_INVESTORS/X Commentor Bot/temp_upload.xlsx
+2025-08-15 17:40:04,296 - INFO - Waiting 2.3 seconds before next post...
+2025-08-15 17:40:06,556 - INFO - Processing post 2/5
+2025-08-15 17:40:06,557 - INFO -   Row Index: 1
+2025-08-15 17:40:06,558 - INFO -   Author: Unknown
+2025-08-15 17:40:06,560 - INFO -   Content: No content
+2025-08-15 17:40:06,560 - INFO -   URL: https://x.com/dolivencia/status/1954962014461366563
+2025-08-15 17:40:10,112 - INFO - Attempting to post comment: Establishing strong connections early fosters trus...
+2025-08-15 17:40:10,114 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x168af7c20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5/window
+2025-08-15 17:40:10,115 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102fc74a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5/window
+2025-08-15 17:40:10,115 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102fc7650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5/window
+2025-08-15 17:40:10,118 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1548bcb60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5
+2025-08-15 17:40:10,119 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105e92030>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5
+2025-08-15 17:40:10,120 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106bb0500>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a117994df97e3b7bc24f2e7b59343cc5
+2025-08-15 17:40:10,120 - INFO - Browser closed successfully

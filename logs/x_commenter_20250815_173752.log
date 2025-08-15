@@ -1,0 +1,143 @@
+2025-08-15 17:37:52,870 - INFO - X Commenter Bot initialized. Log file: logs/x_commenter_20250815_173752.log
+2025-08-15 17:37:52,871 - INFO - Setting up Chrome WebDriver...
+2025-08-15 17:37:53,125 - INFO - Chromedriver is already installed.
+2025-08-15 17:37:53,125 - INFO - ChromeDriver installed at: /opt/anaconda3/lib/python3.12/site-packages/chromedriver_autoinstaller/139/chromedriver
+2025-08-15 17:37:53,127 - INFO - Using temporary profile directory: /var/folders/3g/yltv2s9j5xbc2scbfb0d4b3h0000gn/T/tmpzfkglg_n
+2025-08-15 17:37:54,496 - INFO - Chrome WebDriver setup completed successfully
+2025-08-15 17:37:54,497 - INFO - Navigating to X login page...
+2025-08-15 17:37:56,308 - INFO - X login page loaded
+2025-08-15 17:37:56,309 - INFO - ============================================================
+2025-08-15 17:37:56,310 - INFO - LOGIN FLOW
+2025-08-15 17:37:56,310 - INFO - 1) Log in on X in the opened Chrome window.
+2025-08-15 17:37:56,311 - INFO - 2) Click the floating 'I'm logged in' button to continue.
+2025-08-15 17:37:56,311 - INFO - ============================================================
+2025-08-15 17:37:56,315 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:37:56,329 - INFO - Injected login confirmation overlay into the page.
+2025-08-15 17:38:16,840 - INFO - Waiting for login confirmation... (click the overlay button when ready)
+2025-08-15 17:38:20,939 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+0   chromedriver                        0x0000000104f3726c cxxbridge1$str$ptr + 2741972
+1   chromedriver                        0x0000000104f2f1dc cxxbridge1$str$ptr + 2709060
+2   chromedriver                        0x0000000104a794fc cxxbridge1$string$len + 90520
+3   chromedriver                        0x0000000104a532e0 chromedriver + 144096
+4   chromedriver                        0x0000000104ae8af0 cxxbridge1$string$len + 546700
+5   chromedriver                        0x0000000104b018f8 cxxbridge1$string$len + 648596
+6   chromedriver                        0x0000000104ab4d30 cxxbridge1$string$len + 334284
+7   chromedriver                        0x0000000104efa66c cxxbridge1$str$ptr + 2493140
+8   chromedriver                        0x0000000104efd8a0 cxxbridge1$str$ptr + 2505992
+9   chromedriver                        0x0000000104edb4a4 cxxbridge1$str$ptr + 2365708
+10  chromedriver                        0x0000000104efe15c cxxbridge1$str$ptr + 2508228
+11  chromedriver                        0x0000000104ecc59c cxxbridge1$str$ptr + 2304516
+12  chromedriver                        0x0000000104f1dc78 cxxbridge1$str$ptr + 2638048
+13  chromedriver                        0x0000000104f1de04 cxxbridge1$str$ptr + 2638444
+14  chromedriver                        0x0000000104f2ee28 cxxbridge1$str$ptr + 2708112
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-15 17:38:21,956 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+0   chromedriver                        0x0000000104f3726c cxxbridge1$str$ptr + 2741972
+1   chromedriver                        0x0000000104f2f1dc cxxbridge1$str$ptr + 2709060
+2   chromedriver                        0x0000000104a794fc cxxbridge1$string$len + 90520
+3   chromedriver                        0x0000000104a532e0 chromedriver + 144096
+4   chromedriver                        0x0000000104ae8af0 cxxbridge1$string$len + 546700
+5   chromedriver                        0x0000000104b018f8 cxxbridge1$string$len + 648596
+6   chromedriver                        0x0000000104ab4d30 cxxbridge1$string$len + 334284
+7   chromedriver                        0x0000000104efa66c cxxbridge1$str$ptr + 2493140
+8   chromedriver                        0x0000000104efd8a0 cxxbridge1$str$ptr + 2505992
+9   chromedriver                        0x0000000104edb4a4 cxxbridge1$str$ptr + 2365708
+10  chromedriver                        0x0000000104efe15c cxxbridge1$str$ptr + 2508228
+11  chromedriver                        0x0000000104ecc59c cxxbridge1$str$ptr + 2304516
+12  chromedriver                        0x0000000104f1dc78 cxxbridge1$str$ptr + 2638048
+13  chromedriver                        0x0000000104f1de04 cxxbridge1$str$ptr + 2638444
+14  chromedriver                        0x0000000104f2ee28 cxxbridge1$str$ptr + 2708112
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-15 17:38:22,966 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+0   chromedriver                        0x0000000104f3726c cxxbridge1$str$ptr + 2741972
+1   chromedriver                        0x0000000104f2f1dc cxxbridge1$str$ptr + 2709060
+2   chromedriver                        0x0000000104a794fc cxxbridge1$string$len + 90520
+3   chromedriver                        0x0000000104a532e0 chromedriver + 144096
+4   chromedriver                        0x0000000104ae8af0 cxxbridge1$string$len + 546700
+5   chromedriver                        0x0000000104b018f8 cxxbridge1$string$len + 648596
+6   chromedriver                        0x0000000104ab4d30 cxxbridge1$string$len + 334284
+7   chromedriver                        0x0000000104efa66c cxxbridge1$str$ptr + 2493140
+8   chromedriver                        0x0000000104efd8a0 cxxbridge1$str$ptr + 2505992
+9   chromedriver                        0x0000000104edb4a4 cxxbridge1$str$ptr + 2365708
+10  chromedriver                        0x0000000104efe15c cxxbridge1$str$ptr + 2508228
+11  chromedriver                        0x0000000104ecc59c cxxbridge1$str$ptr + 2304516
+12  chromedriver                        0x0000000104f1dc78 cxxbridge1$str$ptr + 2638048
+13  chromedriver                        0x0000000104f1de04 cxxbridge1$str$ptr + 2638444
+14  chromedriver                        0x0000000104f2ee28 cxxbridge1$str$ptr + 2708112
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-15 17:38:23,981 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+0   chromedriver                        0x0000000104f3726c cxxbridge1$str$ptr + 2741972
+1   chromedriver                        0x0000000104f2f1dc cxxbridge1$str$ptr + 2709060
+2   chromedriver                        0x0000000104a794fc cxxbridge1$string$len + 90520
+3   chromedriver                        0x0000000104a532e0 chromedriver + 144096
+4   chromedriver                        0x0000000104ae8af0 cxxbridge1$string$len + 546700
+5   chromedriver                        0x0000000104b018f8 cxxbridge1$string$len + 648596
+6   chromedriver                        0x0000000104ab4d30 cxxbridge1$string$len + 334284
+7   chromedriver                        0x0000000104efa66c cxxbridge1$str$ptr + 2493140
+8   chromedriver                        0x0000000104efd8a0 cxxbridge1$str$ptr + 2505992
+9   chromedriver                        0x0000000104edb4a4 cxxbridge1$str$ptr + 2365708
+10  chromedriver                        0x0000000104efe15c cxxbridge1$str$ptr + 2508228
+11  chromedriver                        0x0000000104ecc59c cxxbridge1$str$ptr + 2304516
+12  chromedriver                        0x0000000104f1dc78 cxxbridge1$str$ptr + 2638048
+13  chromedriver                        0x0000000104f1de04 cxxbridge1$str$ptr + 2638444
+14  chromedriver                        0x0000000104f2ee28 cxxbridge1$str$ptr + 2708112
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-15 17:38:24,996 - ERROR - Error during login confirmation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+0   chromedriver                        0x0000000104f3726c cxxbridge1$str$ptr + 2741972
+1   chromedriver                        0x0000000104f2f1dc cxxbridge1$str$ptr + 2709060
+2   chromedriver                        0x0000000104a794fc cxxbridge1$string$len + 90520
+3   chromedriver                        0x0000000104a532e0 chromedriver + 144096
+4   chromedriver                        0x0000000104ae8af0 cxxbridge1$string$len + 546700
+5   chromedriver                        0x0000000104b018f8 cxxbridge1$string$len + 648596
+6   chromedriver                        0x0000000104ab4d30 cxxbridge1$string$len + 334284
+7   chromedriver                        0x0000000104efa66c cxxbridge1$str$ptr + 2493140
+8   chromedriver                        0x0000000104efd8a0 cxxbridge1$str$ptr + 2505992
+9   chromedriver                        0x0000000104edb4a4 cxxbridge1$str$ptr + 2365708
+10  chromedriver                        0x0000000104efe15c cxxbridge1$str$ptr + 2508228
+11  chromedriver                        0x0000000104ecc59c cxxbridge1$str$ptr + 2304516
+12  chromedriver                        0x0000000104f1dc78 cxxbridge1$str$ptr + 2638048
+13  chromedriver                        0x0000000104f1de04 cxxbridge1$str$ptr + 2638444
+14  chromedriver                        0x0000000104f2ee28 cxxbridge1$str$ptr + 2708112
+15  libsystem_pthread.dylib             0x00000001948e9c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001948e4b80 thread_start + 8
+
+2025-08-15 17:38:26,001 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156892120>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,003 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1013db500>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,004 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1013db6e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,006 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10441b530>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/url
+2025-08-15 17:38:26,008 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106d06ed0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/url
+2025-08-15 17:38:26,009 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156e9b560>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/url
+2025-08-15 17:38:26,011 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156892450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,013 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045df530>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,014 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045b0890>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/execute/sync
+2025-08-15 17:38:26,016 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156efaff0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/element
+2025-08-15 17:38:26,018 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156efb230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/element
+2025-08-15 17:38:26,019 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156efb020>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2/element
+2025-08-15 17:38:26,021 - ERROR - Error during login confirmation: HTTPConnectionPool(host='localhost', port=59634): Max retries exceeded with url: /session/db9d9e032d3e580f32dee546e0750ca2/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x156efae10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-15 17:38:26,024 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045b0aa0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2
+2025-08-15 17:38:26,025 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045df1a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2
+2025-08-15 17:38:26,026 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045df470>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/db9d9e032d3e580f32dee546e0750ca2
+2025-08-15 17:38:26,028 - INFO - Browser closed successfully
